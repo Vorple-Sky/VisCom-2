@@ -3,13 +3,20 @@ margin: 0px;
 background-color: darkcyan;
 color: gold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
 }
+
 
 header{
 background-color: blueviolet;
 border: 5px crimson solid;
 padding: 15px;
 margin: 5px;
+text-align: center;
+}
+
+nav h1{
+    color: red;
 }
 
 nav{
@@ -24,6 +31,7 @@ background-color: chocolate;
 border: 5px green dotted;
 padding: 5px;
 margin: 3px;
+text-align: center;
 }
 
 footer{
@@ -31,4 +39,5 @@ background-color: crimson;
 border: 3px yellow solid;
 padding: 30px;
 margin: 10px;
+text-align: center;
 }
