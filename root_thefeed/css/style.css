@@ -43,6 +43,7 @@ footer {
   padding: 30px;
   margin: 10px;
   text-align: center;
+  margin: auto;
 }
 
 #layout {
@@ -50,4 +51,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+
+.pink {
+  background-color: hotpink;
 }
