@@ -9,10 +9,17 @@ body {
 
 header {
   background-color: lightblue;
-  border: 5px darkblue dashed;
   padding: 15px;
   margin: 5px;
   text-align: center;
+}
+
+header img{
+  width: 30%;
+}
+
+header img:hover{
+  border: 2px blueviolet dotted;
 }
 
 nav h1 {
@@ -37,6 +44,7 @@ main {
   width: 80%;
 }
 
+
 footer {
   background-color: lightblue;
   border: 5px darkblue dashed;
@@ -54,6 +62,18 @@ footer {
 }
 
 .style1 {
-  color: blueviolet;
-
+  background-color: lightblue;
 }
+
+#homegif{
+  border: 3px transparent dotted;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  
+}
+
+#homegif:hover {
+border: 3px blueviolet dotted;
+}
+
