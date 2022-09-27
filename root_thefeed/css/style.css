@@ -69,11 +69,15 @@ footer {
   border: 3px transparent dotted;
   position: absolute;
   top: 15%;
-  left: 35%;
-  
+  left: 15%;
+  right: 15%;
+}
+
+#homegif img{
+  width: 70%;
 }
 
 #homegif:hover {
-border: 3px blueviolet dotted;
+  border: 3px blueviolet dotted;
 }
 
