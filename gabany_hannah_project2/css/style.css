@@ -47,6 +47,13 @@ main{
     color: antiquewhite;
 }
 
+section{
+    display: grid;
+    grid-template-columns: repeat(12/1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -56,4 +63,9 @@ footer{
 
 footer h2:hover{
     color: brown;
+}
+
+#tagline{
+    grid-column: 2/span 10;
+    text-align: center;
 }
