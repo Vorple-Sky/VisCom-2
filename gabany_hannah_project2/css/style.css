@@ -54,6 +54,22 @@ section{
     grid-auto-flow: dense;
 }
 
+.artwork{
+    grid-column: 1/ span 4;
+}
+
+.label{
+    grid-column: 6/ span 5;
+}
+
+.artwork_alt{
+    grid-column: 5 / span 8;
+}
+
+.label_alt{
+    grid-column: 2/ span 5;
+}
+
 footer{
     display: flex;
     flex-direction: row;
