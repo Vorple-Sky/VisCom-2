@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  background-color: lightblue;
+  color: blueviolet;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: lightblue;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+header img {
+  width: 30%;
+}
+
+header img:hover {
+  border: 2px blueviolet dotted;
+}
+
+nav h1 {
+  color: blanchedalmond;
+}
+
+nav {
+  background-color: lightblue;
+  border: 5px darkblue dashed;
+  padding: 15px;
+  margin: 7px;
+  text-align: left;
+  width: 15%;
+}
+
+main {
+  background-color: lightblue;
+  border: 5px darkblue dashed;
+  padding: 5px;
+  margin: 3px;
+  text-align: center;
+  width: 80%;
+}
+
+footer {
+  background-color: lightblue;
+  border: 5px darkblue dashed;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+#layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.style1 {
+  background-color: lightblue;
+}
+
+#homegif {
+  border: 3px transparent dotted;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+}
+
+#homegif img {
+  width: 70%;
+}
+
+#homegif:hover {
+  border: 3px blueviolet dotted;
+}
+
+a:link {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blueviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: large;
+}
+
+a:active {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
